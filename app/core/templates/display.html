@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+	<table>
+		<tr>
+			<th>id</th>
+			<th>username</th>
+			<th>occurences</th>
+	    </tr>
+		{% for result in results %}
+			<tr>
+				<td>
+					{{result['id']}}
+				</td>
+				<td>
+					<a href="{{ "https://twitter.com/"+result['name'] }}"> {{result['name']}} </a>
+				</td>
+				<td>
+					{{result['occurences']}}
+				</td>
+
+			</tr>
+		{% endfor %}
+	</table>
+{% endblock %}

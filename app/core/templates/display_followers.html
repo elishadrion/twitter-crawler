@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+	<table>
+		<tr>
+			<th>id</th>
+			<th>twitter id</th>
+			<th>occurences</th>
+	    </tr>
+		{% for result in results %}
+			<tr>
+				<td>
+					{{result['id']}}
+				</td>
+				<td>
+					{{result['follower_id']}}
+				</td>
+				<td>
+					{{result['occurences']}}
+				</td>
+
+			</tr>
+		{% endfor %}
+	</table>
+{% endblock %}

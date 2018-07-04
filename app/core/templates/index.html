@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block style %}
+<style>
+	#infos
+	{
+		position: relative;
+		top: 50%;
+	    transform: translateY(-50%);
+	}
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="ui center aligned container" id="infos">
+	<div class="ui grid">
+  		<div class="one column row">
+    		<div class="column">
+				<h1 class="ui header">A simple twitter crawler</h1>
+    		</div>
+  		</div>
+		<div class="one column row">
+    		<div class="column">
+				<a href="{{ url_for('core.discovered') }}">Discovered users list</a>
+    		</div>
+  		</div>
+	</div>
+</div>
+{% endblock %}

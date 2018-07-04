@@ -1,0 +1,9 @@
+StarkWareLtd
+Truebitprotocol
+zilliqa
+nucypher
+Quark_Chain
+CodaProtocol
+kadena_io
+solanalabs
+algorand
