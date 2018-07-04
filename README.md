@@ -1,8 +1,10 @@
 
-###FORENOTE
+### FORENOTE
+
 This project isn't done and can still be upgraded in my ways.
 
-###GOAL
+### GOAL
+
 The idea is to track early followers of all-star projects.
 
 1. Search the 100 first followers of every project
@@ -12,16 +14,17 @@ The idea is to track early followers of all-star projects.
 5. Again, cross-verification with other followers of the same and different categories if followed same project
 	If so, we increase count
 
-###USE
+### USE
+
 Write the projects' twitter usernames in app/projects.txt file.
 To initally get all the first 100 users of the projects, launch crawler.py.
 To update the occurences, launch tracker.py.
 
-###ISSUES
+### ISSUES
 Impossible to fetch the first 100 followers of projects with more than 5k followers.
 
 
 
-###TO DO
+### TO DO
 
 - manage case where there are more than 5k followers, we have to use the cursor and so on
